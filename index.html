@@ -18,16 +18,10 @@
     .books{background:linear-gradient(180deg,#fff 0,var(--blush) 100%)}.book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.book{background:var(--paper);border-radius:26px 7px 26px 7px;border-top:7px solid var(--gold);display:flex;flex-direction:column;overflow:hidden;transition:.25s transform,.25s box-shadow;box-shadow:0 12px 35px rgba(87,47,61,.08)}.book:nth-child(2){border-color:var(--pink);background:#fff8fb}.book:nth-child(3){border-color:var(--coral);background:#fff9f1}.book:hover{transform:translateY(-8px) rotate(-.5deg);box-shadow:0 24px 50px rgba(87,47,61,.16)}.book-cover{aspect-ratio:2/3;background:#241b1e;overflow:hidden}.book-cover img{width:100%;height:100%;display:block;object-fit:cover}.book-body{display:flex;flex:1;flex-direction:column;padding:28px 30px 32px}.book .num{font-size:.72rem;letter-spacing:.15em;color:var(--muted);text-transform:uppercase}.book h3{font-size:clamp(1.75rem,2.5vw,2.2rem);margin:20px 0 14px}.book p{color:var(--muted);margin:0 0 24px}.status{margin-top:auto;font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--berry)}.book-link{align-self:flex-start;margin-top:22px;display:inline-flex;align-items:center;gap:9px;background:var(--ink);color:white;text-decoration:none;padding:11px 16px;border-radius:999px;font-weight:700;font-size:.86rem}.book-link:hover,.book-link:focus-visible{background:var(--berry)}.book-link::after{content:"↗"}
     .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:85px;align-items:center}.author-photo{margin:0;aspect-ratio:4/5;border-radius:48% 48% 18px 18px;position:relative;overflow:hidden;box-shadow:20px 20px 0 var(--blush);background:var(--gold)}.author-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 24%}.about-copy h2{font-size:clamp(2.7rem,5vw,4.7rem);margin:12px 0 28px}.about-copy p{font-size:1.08rem;color:var(--muted)}.signature{font:italic 600 2rem "Playfair Display";color:var(--berry);margin-top:28px}
     .manifesto{background:linear-gradient(100deg,var(--gold) 0%,var(--coral) 48%,var(--pink) 100%);padding:84px 0}.manifesto p{font:600 clamp(2.1rem,5vw,4.5rem)/1.15 "Playfair Display";max-width:1050px;margin:0;color:var(--ink)}.manifesto p span{font-style:italic;color:white}
-    .connect{text-align:center;background:radial-gradient(circle at 20% 20%,rgba(255,215,116,.22),transparent 25%),linear-gradient(135deg,#25151e,var(--berry));color:white}.connect h2{font-size:clamp(3rem,6vw,5.5rem);max-width:850px;margin:auto}.connect p{color:#f7e8ee;max-width:700px;margin:25px auto 28px}.connect .eyebrow{color:var(--gold2)}.reader-list{max-width:620px;margin:30px auto 0;background:var(--paper);color:var(--ink);padding:24px;border-radius:22px;box-shadow:0 18px 45px rgba(0,0,0,.2)}.note{font-size:.8rem;color:#f3cedc;margin-top:18px}
+    .connect{text-align:center;background:radial-gradient(circle at 20% 20%,rgba(255,215,116,.22),transparent 25%),linear-gradient(135deg,#25151e,var(--berry));color:white}.connect h2{font-size:clamp(3rem,6vw,5.5rem);max-width:850px;margin:auto}.connect p{color:#f7e8ee;max-width:700px;margin:25px auto 28px}.connect .eyebrow{color:var(--gold2)}.reader-list{max-width:620px;margin:30px auto 0;background:var(--paper);color:var(--ink);padding:28px;border-radius:22px;box-shadow:0 18px 45px rgba(0,0,0,.2)}.ml-form-embedWrapper{max-width:460px;margin:auto}.ml-form-embedContent h4{font:700 1.8rem "Playfair Display",serif;margin:0 0 10px}.connect .ml-form-embedContent p,.connect .ml-form-successContent p{color:var(--muted);margin:0 0 18px}.ml-field-group input{display:block;width:100%;font:16px "DM Sans",sans-serif;padding:14px 15px;border:1px solid #cfc5c9;border-radius:10px;background:#fff;color:var(--ink);position:relative;z-index:2}.ml-form-embedSubmit button.primary{display:block;width:100%;margin-top:12px;padding:14px;border:0;border-radius:10px;background:var(--ink);color:#fff;font-weight:700;font-size:15px;cursor:pointer}.ml-form-embedSubmit button.primary:hover{background:var(--berry)}.ml-form-successContent h4{font:700 1.8rem "Playfair Display",serif;margin:0 0 10px}.note{font-size:.8rem;color:#f3cedc;margin-top:18px}
     footer{background:#080808;color:#aaa398;padding:28px 0;border-top:1px solid #24211b}.foot{display:flex;justify-content:space-between;gap:20px;font-size:.82rem}.foot strong{color:white}
     @media(max-width:850px){.links a:not(.nav-cta){display:none}.hero{min-height:auto}.hero-grid,.section-head,.about-grid{grid-template-columns:1fr}.hero-grid{padding:68px 0}.hero-art{min-height:370px}.quote-card{inset:20px 0 0 40px;padding:50px 36px}.gold-box{left:0;width:120px;height:120px}.book-grid{grid-template-columns:1fr}.book{min-height:340px}.section-head,.about-grid{gap:35px}section{padding:78px 0}}@media(max-width:480px){.wrap{width:min(100% - 28px,1180px)}.nav{height:70px}.hero h1{font-size:3.25rem}.hero-art{min-height:330px}.quote-card{inset:15px 0 0 20px;padding:45px 26px}.quote-card p{font-size:1.55rem}.foot{flex-direction:column}.nav-cta{padding:9px 13px}}
   </style>
-  <!-- MailerLite Universal -->
-  <script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);};l=d.createElement(e);l.async=1;l.src=u;n=d.getElementsByTagName(e)[0];n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '2679404');
-  </script>
-  <!-- End MailerLite Universal -->
 </head>
 <body>
   <header class="top">
@@ -54,9 +48,46 @@
     </section>
     <section id="about"><div class="wrap about-grid"><figure class="author-photo"><img src="assets/aria-monroe-author.webp" alt="Author Aria Monroe"></figure><div class="about-copy"><div class="eyebrow">Meet the author</div><h2>Writing truth into every chapter.</h2><p>Aria Monroe creates honest, empowering work centered on resilience, faith, identity, and becoming. Her words meet readers in the middle of real life—not after the healing is finished, but while courage is still being gathered.</p><p>Her books remind us that being tested does not mean being defeated, and starting over can be the beginning of something extraordinary.</p><div class="signature">Aria Monroe</div></div></div></section>
     <section class="manifesto"><div class="wrap"><p>For the woman who survived what should have broken her—and discovered she was <span>never broken at all.</span></p></div></section>
-    <section class="connect" id="connect"><div class="wrap"><div class="eyebrow">Stay connected</div><h2>Join Aria’s Reader List.</h2><p>Be the first to know about new releases, exclusive excerpts, and updates from Aria Monroe—including <em>She Didn’t Ask for Permission</em>, releasing November 6, 2026.</p><div class="reader-list"><div class="ml-embedded" data-form="jZugr5"></div></div><div class="note">Official author website · Aria Monroe</div></div></section>
+    <section class="connect" id="connect"><div class="wrap"><div class="eyebrow">Stay connected</div><h2>Join Aria’s Reader List.</h2><p>Be the first to know about new releases, exclusive excerpts, and updates from Aria Monroe—including <em>She Didn’t Ask for Permission</em>, releasing November 6, 2026.</p><div class="reader-list">
+  <div id="mlb2-46652521" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-46652521">
+    <div class="ml-form-align-center">
+      <div class="ml-form-embedWrapper embedForm">
+        <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+          <div class="ml-form-embedContent">
+            <h4>Join Aria's Reader List</h4>
+            <p>Be the first to know about new releases, exclusive excerpts, and updates from Aria Monroe—including <em>She Didn't Ask for Permission</em>, releasing November 6, 2026.</p>
+          </div>
+          <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2679404/forms/200233994038543702/subscribe" method="post" target="_blank">
+            <div class="ml-form-formContent">
+              <div class="ml-form-fieldRow ml-last-item">
+                <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                  <input aria-label="email" aria-required="true" type="email" class="form-control" name="fields[email]" placeholder="Email address" autocomplete="email" required>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" name="ml-submit" value="1">
+            <div class="ml-form-embedSubmit"><button type="submit" class="primary">Join The List</button><button disabled style="display:none" type="button" class="loading">Joining...</button></div>
+            <input type="hidden" name="anticsrf" value="true">
+          </form>
+        </div>
+        <div class="ml-form-successBody row-success" style="display:none">
+          <div class="ml-form-successContent"><h4>YOU'RE ON THE LIST!</h4><p>Welcome to Aria's Reader List. You'll be among the first to receive book news, exclusive updates, and release announcements from Aria Monroe.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="note">Official author website · Aria Monroe</div></div></section>
   </main>
   <footer><div class="wrap foot"><span><strong>ARIA MONROE</strong> · Author</span><span>© <span id="year"></span> Aria Monroe. All rights reserved.</span></div></footer>
   <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+  <script>
+    function ml_webform_success_46652521() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-46652521 .row-success').show();
+      $('.ml-subscribe-form-46652521 .row-form').hide();
+    }
+  </script>
+  <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
+  <script>fetch("https://assets.mailerlite.com/jsonp/2679404/forms/200233994038543702/takel")</script>
 </body>
 </html>
